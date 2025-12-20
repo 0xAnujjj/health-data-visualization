@@ -149,12 +149,6 @@ This project demonstrates the effective use of **data visualization techniques**
 
 ---
 
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 ## 👤 Author
 
 **0xAnujjj**
