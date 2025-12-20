@@ -22,6 +22,7 @@ This repository presents a comprehensive visual analysis of a health dataset usi
 
 ## 📁 Project Structure
 
+```
 health-data-visualization/
 │
 ├── plots/
@@ -34,7 +35,7 @@ health-data-visualization/
 ├── Health_heart_experimental.csv
 ├── main.ipynb
 └── README.md
-
+```
 
 > 📌 **Note:** All generated plots are stored in the `plots/` folder for proper rendering in this README.
 
@@ -118,3 +119,46 @@ A scatter plot using a random sample of the dataset was chosen to reduce overcro
 
 ```bash
 pip install pandas matplotlib seaborn jupyter
+```
+
+### Running the Analysis
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/0xAnujjj/health-data-visualization.git
+   cd health-data-visualization
+   ```
+
+2. **Open the Jupyter Notebook**
+   ```bash
+   jupyter notebook main.ipynb
+   ```
+
+3. **Run all cells** to generate visualizations
+
+---
+
+## ✅ Conclusion
+
+This project demonstrates the effective use of **data visualization techniques** to explore health-related data. Key findings include:
+
+- 📉 **Weak correlation** between BMI and blood pressure
+- 📊 **Balanced distribution** of heart conditions
+- ⚠️ **High prevalence** of overweight and obesity across age groups
+- 💡 **Importance of exploratory analysis** before drawing conclusions
+
+---
+
+## 👤 Author
+
+**0xAnujjj**
+
+- GitHub: [@0xAnujjj](https://github.com/0xAnujjj)
+
+---
+
+<div align="center">
+
+⭐ **If you found this project helpful, please consider giving it a star!** ⭐
+
+</div>
