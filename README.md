@@ -14,6 +14,7 @@ This repository presents a comprehensive visual analysis of a health dataset usi
 
 - 🫀 **Age**
 - 💓 **Heart Rate**
+- 👱🏿 **Sex**
 - ⚖️ **BMI (Body Mass Index)**
 - 🩺 **Blood Pressure**
 - ❤️ **Heart Condition**
@@ -28,6 +29,7 @@ health-data-visualization/
 ├── plots/
 │   ├── barPlot.png
 │   ├── boxPlot.png
+│   ├── histogram.png
 │   ├── lineChart.png
 │   ├── pieChart.png
 │   └── scatterPlot.png
@@ -85,6 +87,15 @@ This box plot represents the distribution of systolic blood pressure values. The
 
 **📊 Insight:**  
 A scatter plot using a random sample of the dataset was chosen to reduce overcrowding and improve clarity. The points are widely scattered, indicating **no strong correlation** between BMI and systolic blood pressure in this dataset.
+
+---
+
+### 6️⃣ Distribution of Body Mass Index
+
+![Histogram](plots/histogram.png)
+
+**📊 Insight:**
+This histogram shows the distribution of Body Mass Index (BMI) values in the dataset. Most individuals fall within the normal to overweight BMI range, while fewer individuals are observed in the underweight and obese categories. This indicates that the dataset mainly represents individuals with moderate BMI levels.
 
 ---
 
