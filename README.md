@@ -1,4 +1,4 @@
-# 📊 Health Dataset Visualization
+# Health Dataset Visualization
 
 > Exploratory visualization and analysis of health data using Python
 
@@ -8,20 +8,20 @@
 
 ---
 
-## 🎯 Overview
+## Overview
 
 This repository presents a comprehensive visual analysis of a health dataset using Python. The goal is to explore trends, distributions, and relationships among key health indicators including:
 
-- 🫀 **Age**
-- 💓 **Heart Rate**
-- 👱🏿 **Sex**
-- ⚖️ **BMI (Body Mass Index)**
-- 🩺 **Blood Pressure**
-- ❤️ **Heart Condition**
+- **Age**
+- **Heart Rate**
+- **Sex**
+- **BMI (Body Mass Index)**
+- **Blood Pressure**
+- **Heart Condition**
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 health-data-visualization/
@@ -39,17 +39,17 @@ health-data-visualization/
 └── README.md
 ```
 
-> 📌 **Note:** All generated plots are stored in the `plots/` folder for proper rendering in this README.
+> **Note:** All generated plots are stored in the `plots/` folder for proper rendering in this README.
 
 ---
 
-## 📈 Visualizations & Insights
+## Visualizations & Insights
 
 ### 1️⃣ Trend of Heart Rate across Age Groups
 
 ![Line Chart](plots/lineChart.png)
 
-**📊 Insight:**  
+**Insight:**  
 This line chart shows the average heart rate for different age groups. The heart rate values fluctuate slightly, indicating no significant change across age ranges in the dataset.
 
 ---
@@ -58,7 +58,7 @@ This line chart shows the average heart rate for different age groups. The heart
 
 ![Bar Plot](plots/barPlot.png)
 
-**📊 Insight:**  
+**Insight:**  
 This bar chart displays the count of individuals in different BMI ranges for each age group. Most individuals fall within the **25–30** and **30–40** BMI categories, suggesting a higher prevalence of overweight and obesity across all age groups.
 
 ---
@@ -67,7 +67,7 @@ This bar chart displays the count of individuals in different BMI ranges for eac
 
 ![Pie Chart](plots/pieChart.png)
 
-**📊 Insight:**  
+**Insight:**  
 The pie chart shows the proportion of individuals with and without heart conditions. Although a slightly larger portion has no heart condition, the distribution is relatively balanced.
 
 ---
@@ -76,7 +76,7 @@ The pie chart shows the proportion of individuals with and without heart conditi
 
 ![Box Plot](plots/boxPlot.png)
 
-**📊 Insight:**  
+**Insight:**  
 This box plot represents the distribution of systolic blood pressure values. The median lies near the center, and the spread indicates moderate variation without extreme outliers.
 
 ---
@@ -85,7 +85,7 @@ This box plot represents the distribution of systolic blood pressure values. The
 
 ![Scatter Plot](plots/scatterPlot.png)
 
-**📊 Insight:**  
+**Insight:**  
 A scatter plot using a random sample of the dataset was chosen to reduce overcrowding and improve clarity. The points are widely scattered, indicating **no strong correlation** between BMI and systolic blood pressure in this dataset.
 
 ---
@@ -94,23 +94,12 @@ A scatter plot using a random sample of the dataset was chosen to reduce overcro
 
 ![Histogram](plots/histogram.png)
 
-**📊 Insight:**
+**Insight:**
 This histogram shows the distribution of Body Mass Index (BMI) values in the dataset. Most individuals fall within the normal to overweight BMI range, while fewer individuals are observed in the underweight and obese categories. This indicates that the dataset mainly represents individuals with moderate BMI levels.
 
 ---
 
-## 🧠 Why Sampling Was Used for Scatter Plot
-
-| Reason | Benefit |
-|--------|---------|
-| ❌ Full data caused heavy overlapping | ✅ Reduced visual clutter |
-| 🔍 Better pattern recognition | ✅ Improved visual clarity |
-| 📊 Easier interpretation | ✅ Suitable for presentations |
-| 📄 Academic reporting | ✅ Professional appearance |
-
----
-
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 
 <div align="center">
 
@@ -124,7 +113,7 @@ This histogram shows the distribution of Body Mass Index (BMI) values in the dat
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -149,18 +138,18 @@ pip install pandas matplotlib seaborn jupyter
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 
 This project demonstrates the effective use of **data visualization techniques** to explore health-related data. Key findings include:
 
-- 📉 **Weak correlation** between BMI and blood pressure
-- 📊 **Balanced distribution** of heart conditions
-- ⚠️ **High prevalence** of overweight and obesity across age groups
-- 💡 **Importance of exploratory analysis** before drawing conclusions
+-  **Weak correlation** between BMI and blood pressure
+-  **Balanced distribution** of heart conditions
+-  **High prevalence** of overweight and obesity across age groups
+-  **Importance of exploratory analysis** before drawing conclusions
 
 ---
 
-## 👤 Author
+## Author
 
 **0xAnujjj**
 
